@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Frame" id="mainFrame">
+    <property name="height">400</property>
+    <property name="width">400</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="columnspan">1</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+      <property name="rowspan">1</property>
+    </layout>
+    <child>
+      <object class="tk.Label" id="displayLabel">
+        <property name="text" translatable="yes">This is the main page</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="pageOne">
+        <property name="height">500</property>
+        <property name="width">500</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <rows>
+            <row id="0">
+              <property name="minsize">0</property>
+            </row>
+          </rows>
+          <columns>
+            <column id="0">
+              <property name="minsize">0</property>
+            </column>
+          </columns>
+        </layout>
+        <child>
+          <object class="tk.Label" id="Label_3">
+            <property name="text" translatable="yes">This is page ONE!</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="pageTwo">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+        </layout>
+        <child>
+          <object class="tk.Label" id="Label_4">
+            <property name="text" translatable="yes">This is page TWO!</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
